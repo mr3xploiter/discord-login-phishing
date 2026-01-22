@@ -1,0 +1,28 @@
+{
+  "name": "discord-login",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "recharts": "2.15.0",
+    "sonner": "^1.7.1",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^1.1.2",
+    "zod": "^3.24.1",
+    "express": "^4.18.2"
+  },
+  "description": "Discord login page with JSON credential storage",
+  "main": "server.js",
+  "keywords": [
+    "discord",
+    "login",
+    "json"
+  ],
+  "author": "",
+  "license": "ISC"
+}
