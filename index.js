@@ -19,7 +19,7 @@ app.post('/submit', (req, res) => {
       input2: input2,
       timestamp: new Date().toISOString()
     };
-
+    console.log(data)
     // credit.json file path
     const filePath = path.join(__dirname, 'credit.json');
 
